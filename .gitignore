@@ -1,3 +1,13 @@
+# Extra .gitignore files to avoid
+.gitignore.swo
+.gitignore.swp
+
+# Avoid Uploading .pkl data on github
+*.pkl
+
+# Folders to avoid
+MNIST_data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
